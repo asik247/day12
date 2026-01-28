@@ -14,6 +14,11 @@ function para(a,b){
 }
 let multiplication = para(10,20);
 console.log(multiplication);
+function great(name = "Guest"){
+    return  `Hello  ${name}`
+}
+console.log(great());
+console.log(great("Asik"));
 // Arrow function
 const firstArrow = ((a,b,c)=>{
     return (a+b)/c;
