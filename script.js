@@ -45,3 +45,12 @@ function getResult(mark){
     }else return "You Fail"
 }
 console.log(getResult(75));
+// discount
+function discount(price){
+    if(price>=1000){
+        return price-price*0.1;
+    }else{
+        return price
+    }
+}
+console.log(discount(1200));
