@@ -14,3 +14,9 @@ function para(a,b){
 }
 let multiplication = para(10,20);
 console.log(multiplication);
+// Arrow function
+const firstArrow = ((a,b,c)=>{
+    return (a+b)/c;
+})
+let arrowAns = firstArrow(50,100,2);
+console.log(arrowAns);
