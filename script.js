@@ -85,3 +85,15 @@ function allEven(numbers){
 let evenArr = [10,20,30,1];
 let result = allEven(evenArr)
 console.log(result);
+
+// Even number some
+function sumEven(numbers){
+    let sum = 0;
+    for (let num of numbers){
+        if(num % 2 === 0){
+            sum +=num;
+        }
+    }
+    return sum
+}
+console.log(sumEven([10,20,5,1,3]));
