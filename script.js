@@ -59,3 +59,30 @@ function discount(price){
     }
 }
 console.log(discount(1200));
+
+// sum using funk
+function sumNumber(numbers){
+    let sum = 0
+    for(let num of numbers){
+        sum = sum + num;
+    }
+    return sum
+}
+let arrayNum = [10,20,30,1];
+let sumation = sumNumber(arrayNum)
+console.log(sumation);
+
+// Return all even number of an arrayNum
+function allEven(numbers){
+    for(let even of numbers){
+        if(even % 2 === 0){
+            return 'even number'
+        }else{
+            return 'odd number'
+        }
+    }
+    return even
+}
+let evenArr = [10,20,30,1];
+let result = allEven(evenArr)
+console.log(result);
