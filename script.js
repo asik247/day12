@@ -74,14 +74,13 @@ console.log(sumation);
 
 // Return all even number of an arrayNum
 function allEven(numbers){
+    let evenNumbers = []
     for(let even of numbers){
         if(even % 2 === 0){
-            return 'even number'
-        }else{
-            return 'odd number'
+           evenNumbers.push(even)
         }
     }
-    return even
+    return evenNumbers;
 }
 let evenArr = [10,20,30,1];
 let result = allEven(evenArr)
