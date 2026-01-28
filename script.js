@@ -1,1 +1,5 @@
-console.log('function code start now');
+// function start
+function myFunk(){
+    console.log('first funk');
+}
+myFunk()
