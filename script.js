@@ -30,3 +30,18 @@ const atmFuk = ((ballence,amount)=>{
 })
 let atmTotal = atmFuk(100000,50000);
 console.log(atmTotal);
+// Student Result
+function getResult(mark){
+    if(mark >=80){
+        return "You Got A+"
+    }else if(mark>=70){
+        return "You Got A"
+    }
+    else if(mark>=60){
+        return "You Got A-"
+    }
+    else if(mark>=50){
+        return "You Got B"
+    }else return "You Fail"
+}
+console.log(getResult(75));
