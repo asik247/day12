@@ -20,3 +20,13 @@ const firstArrow = ((a,b,c)=>{
 })
 let arrowAns = firstArrow(50,100,2);
 console.log(arrowAns);
+// Real life example:ATM Machine
+const atmFuk = ((ballence,amount)=>{
+    if(amount<=ballence){
+        return ballence - amount;
+    }else{
+        return 'Insufficient balance'
+    }
+})
+let atmTotal = atmFuk(100000,50000);
+console.log(atmTotal);
